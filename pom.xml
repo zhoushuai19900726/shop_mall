@@ -16,7 +16,8 @@
         <module>changgou-service-api</module>
         <module>changgou-web</module>
         <module>changgou-user-oauth</module>
-        <module>changgou_common_fescar</module>
+        <module>changgou-common-fescar</module>
+        <module>changgou-system</module>
     </modules>
     <packaging>pom</packaging>
     <description>

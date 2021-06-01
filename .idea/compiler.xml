@@ -26,7 +26,9 @@
         <module name="changgou-service-seckill-api" />
         <module name="changgou-service-user" />
         <module name="changgou-service-user-api" />
+        <module name="changgou-system" />
         <module name="changgou-user-oauth" />
+        <module name="changgou-web-admin" />
         <module name="changgou-web-item" />
         <module name="changgou-web-item-api" />
         <module name="changgou-web-search" />
@@ -57,8 +59,10 @@
       <module name="changgou-service-seckill-api" target="1.8" />
       <module name="changgou-service-user" target="1.8" />
       <module name="changgou-service-user-api" target="1.8" />
+      <module name="changgou-system" target="1.8" />
       <module name="changgou-user-oauth" target="1.8" />
       <module name="changgou-web" target="1.8" />
+      <module name="changgou-web-admin" target="1.8" />
       <module name="changgou-web-item" target="1.8" />
       <module name="changgou-web-item-api" target="1.8" />
       <module name="changgou-web-search" target="1.8" />
@@ -86,7 +90,9 @@
       <module name="changgou-service-seckill-api" options="-parameters" />
       <module name="changgou-service-user" options="-parameters" />
       <module name="changgou-service-user-api" options="-parameters" />
+      <module name="changgou-system" options="-parameters" />
       <module name="changgou-user-oauth" options="-parameters" />
+      <module name="changgou-web-admin" options="-parameters" />
       <module name="changgou-web-item" options="-parameters" />
       <module name="changgou-web-item-api" options="-parameters" />
       <module name="changgou-web-search" options="-parameters" />

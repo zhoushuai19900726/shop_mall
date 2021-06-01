@@ -1,0 +1,833 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "/home?t=1"
+  },
+  "logoInfo": {
+    "title": "LAYUI MINI",
+    "image": "images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "商品管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "商品管理",
+          "href": "",
+          "icon": "fa fa-home",
+          "target": "_self",
+          "child": [
+            {
+              "title": "在售商品",
+              "href": "goods/saleGoodsList",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "违规下架",
+              "href": "page/welcome-2.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "仓库",
+              "href": "page/welcome-3.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "分类管理",
+          "href": "page/menu.html",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        },
+        {
+          "title": "品牌管理",
+          "href": "page/setting.html",
+          "icon": "fa fa-gears",
+          "target": "_self"
+        },
+        {
+          "title": "规格管理",
+          "href": "page/table.html",
+          "icon": "fa fa-file-text",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "用户管理",
+      "href": "",
+      "icon": "fa fa-flag-o",
+      "target": "_self",
+      "child": [
+        {
+          "title": "会员管理",
+          "href": "page/login-1.html",
+          "icon": "fa fa-stumbleupon-circle",
+          "target": "_blank"
+        },
+        {
+          "title": "会员等级",
+          "href": "page/login-2.html",
+          "icon": "fa fa-viacoin",
+          "target": "_blank"
+        },
+        {
+          "title": "推广的等级",
+          "href": "page/login-3.html",
+          "icon": "fa fa-tags",
+          "target": "_blank"
+        },
+        {
+          "title": "安置关系图",
+          "href": "page/login-3.html",
+          "icon": "fa fa-tags",
+          "target": "_blank"
+        },
+        {
+          "title": "开发关系图",
+          "href": "page/login-3.html",
+          "icon": "fa fa-tags",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "title": "商家管理",
+      "href": "",
+      "icon": "fa fa-home",
+      "target": "_self",
+      "child": [
+        {
+          "title": "商家管理",
+          "href": "page/404.html",
+          "icon": "fa fa-hourglass-end",
+          "target": "_self"
+        },
+        {
+          "title": "商家等级",
+          "href": "page/404.html",
+          "icon": "fa fa-hourglass-end",
+          "target": "_self"
+        },
+        {
+          "title": "商家分类",
+          "href": "page/404.html",
+          "icon": "fa fa-hourglass-end",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "运营管理",
+      "href": "",
+      "icon": "fa fa-snowflake-o",
+      "target": "",
+      "child": [
+        {
+          "title": "展示类目",
+          "href": "page/button.html",
+          "icon": "fa fa-snowflake-o",
+          "target": "_self"
+        },
+        {
+          "title": "广告中心",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self",
+          "child": [
+            {
+              "title": "广告位管理",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            },
+            {
+              "title": "广告管理",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "素材中心",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self",
+          "child": [
+            {
+              "title": "素材管理",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            },
+            {
+              "title": "素材分类",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "标签管理",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self"
+        },
+        {
+          "title": "轮播图管理",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self"
+        },
+        {
+          "title": "Banner管理",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self"
+        },
+        {
+          "title": "公告管理",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self"
+        },
+        {
+          "title": "反馈管理",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self"
+        },
+        {
+          "title": "签到规则",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self"
+        },
+        {
+          "title": "精选视频",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self",
+          "child": [
+            {
+              "title": "精选视频",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            },
+            {
+              "title": "视频分类",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "举报管理",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self"
+        },
+        {
+          "title": "评论审核",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self",
+          "child": [
+            {
+              "title": "文章评论审核",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            },
+            {
+              "title": "视频评论审核",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "资料库",
+          "href": "page/layer.html",
+          "icon": "fa fa-shield",
+          "target": "_self",
+          "child": [
+            {
+              "title": "资料管理",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            },
+            {
+              "title": "资料分类",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "营销管理",
+      "icon": "fa fa-lemon-o",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "团购活动",
+          "href": "page/icon.html",
+          "icon": "fa fa-dot-circle-o",
+          "target": "_self"
+        },
+        {
+          "title": "拼团宝",
+          "href": "page/icon-picker.html",
+          "icon": "fa fa-adn",
+          "target": "_self"
+        },
+        {
+          "title": "单品宝",
+          "href": "page/color-select.html",
+          "icon": "fa fa-dashboard",
+          "target": "_self"
+        },
+        {
+          "title": "首时折扣",
+          "href": "page/table-select.html",
+          "icon": "fa fa-angle-double-down",
+          "target": "_self"
+        },
+        {
+          "title": "搭配宝",
+          "href": "page/upload.html",
+          "icon": "fa fa-arrow-up",
+          "target": "_self"
+        },
+        {
+          "title": "折扣宝",
+          "href": "page/editor.html",
+          "icon": "fa fa-edit",
+          "target": "_self"
+        },
+        {
+          "title": "加价购",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        },
+        {
+          "title": "优惠券",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        },
+        {
+          "title": "预售",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        },
+        {
+          "title": "定金",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        },
+        {
+          "title": "助力",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        },
+        {
+          "title": "新品体验专区",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        },
+        {
+          "title": "新人体验专区",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        },
+        {
+          "title": "防疫专区",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        },
+        {
+          "title": "二次购物折让配置",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "交易管理",
+      "icon": "fa fa-slideshare",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "订单管理",
+          "href": "",
+          "icon": "fa fa-meetup",
+          "target": "",
+          "child": [
+            {
+              "title": "订单列表",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            },
+            {
+              "title": "退货记录",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            },
+            {
+              "title": "换货记录",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            },
+            {
+              "title": "订单审批(退换货)",
+              "href": "page/button.html?v=1",
+              "icon": "fa fa-calendar",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "物流中心",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "评价管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "结算管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "商家账单",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "纳税公司",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "提现管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "咨询管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "发现管理",
+      "icon": "fa fa-slideshare",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "宜/忌事项管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "每日知识点",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "万年历事项管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "文章列表",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "文章发布",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "文章栏目",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "统计中心",
+      "icon": "fa fa-slideshare",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "订单统计",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "流量统计",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "结算统计",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "会员统计",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "购买率统计",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "第三方注册率",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "各平台下单统计",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "商品浏览统计",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "网站设置",
+      "icon": "fa fa-slideshare",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "系统设置",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self",
+          "child": [
+            {
+              "title": "站点设置",
+              "href": "page/error.html",
+              "icon": "fa fa-superpowers",
+              "target": "_self"
+            },
+            {
+              "title": "积分设置",
+              "href": "page/error.html",
+              "icon": "fa fa-superpowers",
+              "target": "_self"
+            },
+            {
+              "title": "图片设置",
+              "href": "page/error.html",
+              "icon": "fa fa-superpowers",
+              "target": "_self"
+            },
+            {
+              "title": "短信设置",
+              "href": "page/error.html",
+              "icon": "fa fa-superpowers",
+              "target": "_self"
+            },
+            {
+              "title": "咨询设置",
+              "href": "page/error.html",
+              "icon": "fa fa-superpowers",
+              "target": "_self"
+            },
+            {
+              "title": "商品审核设置",
+              "href": "page/error.html",
+              "icon": "fa fa-superpowers",
+              "target": "_self"
+            },
+            {
+              "title": "文件云服务器设置",
+              "href": "page/error.html",
+              "icon": "fa fa-superpowers",
+              "target": "_self"
+            },
+            {
+              "title": "快递自提点设置",
+              "href": "page/error.html",
+              "icon": "fa fa-superpowers",
+              "target": "_self"
+            },
+            {
+              "title": "消息推送设置",
+              "href": "page/error.html",
+              "icon": "fa fa-superpowers",
+              "target": "_self"
+            },
+            {
+              "title": "公告提示设置",
+              "href": "page/error.html",
+              "icon": "fa fa-superpowers",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "搜索管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "支付方式",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "数据监控",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "数据字典",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "快递公司",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "日志管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "敏感词库",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "配送地区",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "结算设置",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "银行管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "自提点管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "站内信设置",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "热词管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "定时任务管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "权限管理",
+      "icon": "fa fa-slideshare",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "菜单管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "管理员",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "角色管理",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "商家菜单",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "代码生成器",
+      "icon": "fa fa-slideshare",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "生成方案",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "业务中心",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "绿色通道",
+      "icon": "fa fa-slideshare",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "会员中心",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "订单中心",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "黑名单",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "月度奖金补发",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "每日奖金结算",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "注销会员",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "拼团调整工具",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        },
+        {
+          "title": "借款/还款",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}

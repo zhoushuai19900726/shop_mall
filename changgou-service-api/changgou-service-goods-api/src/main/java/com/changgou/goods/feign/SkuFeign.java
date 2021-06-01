@@ -3,7 +3,6 @@ package com.changgou.goods.feign;
 import com.changgou.goods.pojo.Sku;
 import com.changgou.order.pojo.OrderItem;
 import entity.Result;
-import entity.StatusCode;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,6 +19,7 @@ import java.util.List;
 @FeignClient(value="goods")
 @RequestMapping("/sku")
 public interface SkuFeign {
+
     /**
      * 查询符合条件的状态的SKU的列表
      * @param status

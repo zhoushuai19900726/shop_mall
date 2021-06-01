@@ -64,7 +64,6 @@ public class LoginServiceImpl implements LoginService {
         Map body = responseEntity.getBody();
 
         //封装一次.
-
         AuthToken authToken = new AuthToken();
         //访问令牌(jwt)
         String accessToken = (String) body.get("access_token");
