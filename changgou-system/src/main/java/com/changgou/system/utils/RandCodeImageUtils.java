@@ -163,8 +163,5 @@ public class RandCodeImageUtils {
         return new Color(r, g, b);
     }
 
-    public static void main(String[] args) {
-        System.out.println(RandCodeImageEnum.ALL_CHAR.generateStr(6));
-    }
 }
 
