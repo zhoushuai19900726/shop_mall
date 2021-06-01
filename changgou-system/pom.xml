@@ -12,7 +12,7 @@
     <artifactId>changgou-system</artifactId>
 
     <description>
-        后台管理的页面模板渲染的工程
+        后台管理的页面模板渲染的工程(独立项目，不依赖微服务)
     </description>
 
     <dependencies>
@@ -27,18 +27,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!--eureka-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <exclusions>
-                <exclusion>
-                    <artifactId>guava</artifactId>
-                    <groupId>com.google.guava</groupId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
         <!--依赖db 和 common-->
